@@ -1,0 +1,106 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Home container */
+.home-container {
+    width: 100%;
+}
+/* Styling for the navigation bar */
+nav {
+    /* Background color */
+    background-color: #333;
+    /* Text color */
+    color: white;
+    /* Padding */
+    padding: 1rem;
+}
+
+/* Styling for the navigation links */
+nav a {
+    /* Text color */
+    color: white;
+    /* Hover effect */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    /* Text color on hover */
+    color: lightgray;
+}
+
+/* Styling for the book store title */
+h1 {
+    /* Font size */
+    font-size: 2rem;
+    /* Font weight */
+    font-weight: bold;
+}
+
+/* Title section */
+.title-section {
+    background-image: url('bg.jpg');  
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding as needed */
+    height: 100vh; /* Set the height to cover the entire viewport */
+}
+
+.title {
+    font-size: 48px;
+    color: #060202;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40; /* Navbar color */
+    color: #fff; /* Text color */
+    padding: 20px 20px; /* Adjust padding as needed */
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Banner */
+.banner {
+    background-color: #f0f0f0;
+    padding: 100px 0; /* Adjust the padding as needed */
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
